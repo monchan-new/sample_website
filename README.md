@@ -1,5 +1,3 @@
-# sample_website
-
 （参考訳）
 > # サンプルWebサイト
 
