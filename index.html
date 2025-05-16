@@ -10,14 +10,23 @@
   <head>
     <title>Rails チュートリアル 「HTML編」</title>
     <meta charset="UTF-8">
+
+    <style>
+      .nav-menu {
+        text-align: right;
+      }
+      .nav-spacing  {
+        margin: 0 0 0 10px;
+      }
+    </style>
   </head>
 
   <body>
 
-    <div style="text-align: right;">
+    <div id="main-nav" class="nav-menu"">
       <a href="index.html" style="text-decoration: none;">homeページ</a>
-      <a href="tags.html" style="margin-left: 10px; text-decoration: none;">HTMLタグ一覧</a>
-      <a href="Moby_dick.html" style="margin-left: 10px; text-decoration: none;">読書案内「Moby Dick」</a>
+      <a href="tags.html" class="nav-spacing" style="text-decoration: none;>HTMLタグ一覧</a>
+      <a href="Moby_dick.html" class="nav-spacing" style="text-decoration: none;>読書案内「Moby Dick」</a>
     </div>
     
     <h1>Learn Enoughのあらまし</h1>
